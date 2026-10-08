@@ -1,0 +1,22 @@
+{
+  "name": "windows11web",
+  "version": "1.0.0",
+  "description": "Windows 11 Web desktop application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "Anshu",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@electron-forge/cli": "^8.0.1",
+    "@electron-forge/maker-squirrel": "^8.0.1",
+    "electron": "^44.6.0"
+  },
+  "productName": "Windows11Web"
+}
