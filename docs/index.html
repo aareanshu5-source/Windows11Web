@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <title>Windows11Web — Download</title>
+  <meta name="description" content="Explore Windows11Web, a Windows 11-style desktop application built with HTML, CSS, JavaScript and Electron.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #0b1220;
+      color: #f4f7ff;
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    header {
+      padding: 20px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #28344a;
+    }
+    .brand { font-size: 22px; font-weight: 700; }
+    .logo {
+      display: inline-grid;
+      place-items: center;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 10px;
+      background: #2878f0;
+      vertical-align: middle;
+      font-size: 25px;
+    }
+    .hero {
+      text-align: center;
+      padding: 75px 20px 65px;
+      background: radial-gradient(ellipse at top, #19345f, #0b1220 70%);
+    }
+    .hero h1 { font-size: clamp(36px, 6vw, 60px); margin: 15px 0 8px; }
+    .muted { color: #b5c2d9; }
+    .version {
+      display: inline-block;
+      border: 1px solid #50617b;
+      border-radius: 20px;
+      padding: 3px 13px;
+      margin: 12px 0 24px;
+    }
+    .download {
+      display: inline-block;
+      padding: 14px 25px;
+      border-radius: 9px;
+      background: #2878f0;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .download:hover { background: #438aff; }
+    main { max-width: 1050px; margin: auto; padding: 25px; }
+    section { padding: 32px 0; }
+    h2 { font-size: 28px; }
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .shot {
+      min-height: 150px;
+      padding: 20px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      border: 1px dashed #62718a;
+      border-radius: 12px;
+      color: #b5c2d9;
+      background: #131e31;
+    }
+    .requirements {
+      padding: 20px 25px;
+      background: #131e31;
+      border-radius: 12px;
+    }
+    footer {
+      padding: 25px;
+      text-align: center;
+      border-top: 1px solid #28344a;
+      color: #b5c2d9;
+    }
+    @media (max-width: 500px) {
+      header { padding: 15px; }
+      .brand { font-size: 18px; }
+      .hero { padding-top: 50px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="logo">⊞</span>Windows11Web</div>
+    <a href="https://github.com/areanshu5-source/Windows11Web/releases/latest">Releases</a>
+  </header>
+
+  <div class="hero">
+    <div style="font-size:60px">⊞</div>
+    <h1>Windows11Web</h1>
+    <p class="muted">A Windows 11-style desktop experience.</p>
+    <div class="version">Version 1.0.0</div>
+    <br>
+    <a class="download"
+       href="https://github.com/areanshu5-source/Windows11Web/releases/latest">
+      ⬇ Download for Windows
+    </a>
+    <p class="muted">Windows installer · Version 1.0.0</p>
+  </div>
+
+  <main>
+    <section>
+      <h2>About Windows11Web</h2>
+      <p class="muted">
+        Windows11Web is a Windows 11-style desktop application built
+        using HTML, CSS, JavaScript and Electron. Explore its desktop
+        interface and built-in app experiences.
+      </p>
+    </section>
+
+    <section>
+      <h2>Screenshots</h2>
+      <p class="muted">Application screenshots will be added here.</p>
+      <div class="screenshots">
+        <div class="shot">Screenshot 1<br>Desktop</div>
+        <div class="shot">Screenshot 2<br>File Explorer</div>
+        <div class="shot">Screenshot 3<br>Applications</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>System requirements</h2>
+      <div class="requirements">
+        <ul>
+          <li>Windows PC compatible with the published installer.</li>
+          <li>64-bit Windows is the intended download target.</li>
+          <li>Enough free storage for the installer and application.</li>
+          <li>Internet access to download the installer.</li>
+        </ul>
+        <p class="muted">
+          Confirm compatibility on your own PC before publishing
+          more specific minimum hardware requirements.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Download Windows11Web</h2>
+      <p class="muted">
+        Get the installer from the official GitHub Releases page.
+      </p>
+      <p><strong>Current version:</strong> 1.0.0</p>
+      <a class="download"
+         href="https://github.com/areanshu5-source/Windows11Web/releases/latest">
+        Download from GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    Windows11Web · Version 1.0.0 ·
+    <a href="https://github.com/areanshu5-source/Windows11Web">GitHub repository</a>
+  </footer>
+</body>
+</html>
